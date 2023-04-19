@@ -3,7 +3,7 @@
     windows_subsystem = "windows"
   )]
 
-  use tauri_app::AppBuilder;
+  use tauriapp::AppBuilder;
   
   pub fn main() {
     AppBuilder::new().run();
